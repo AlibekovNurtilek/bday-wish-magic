@@ -7,7 +7,7 @@ const BackgroundMusic = () => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
   // Free birthday music URL - you can replace with your own
-  const musicUrl = "https://cdn.pixabay.com/audio/2022/03/10/audio_4a26f03c2a.mp3";
+  const musicUrl = "happy-birthday-to-you-piano-version-13976.mp3";
 
   useEffect(() => {
     if (audioRef.current) {
